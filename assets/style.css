@@ -1,0 +1,60 @@
+body {
+        background-color: #F4F7FE; /* Updated to match SaaS Background */
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* INALIS NA NATIN ANG .sidebar DITO DAHIL NASA SIDEBAR.PHP NA SIYA */
+
+    .topbar {
+        background: #fff;
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .card-box {
+        border-radius: 12px;
+        border: none;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .card-box h6 {
+        color: #777;
+    }
+
+    .card-box h3 {
+        font-weight: bold;
+    }
+
+    .table {
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .report-header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .report-logo {
+        display: block;
+        margin: 0 auto 10px auto;
+        width: 80px;
+    }
+
+    @media print {
+        .report-header {
+            text-align: center !important;
+        }
+
+        .report-logo {
+            margin: 0 auto 10px auto !important;
+            display: block !important;
+        }
+    }
+
+    .report-header img {
+        display: block;
+        margin: 0 auto;
+    }
